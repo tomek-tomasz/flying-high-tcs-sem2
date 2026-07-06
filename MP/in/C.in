@@ -1,0 +1,46 @@
+4
+6 STRING STACK
+push kot
+push kogut
+top
+min
+clear
+top
+17 INT STACK
+pop
+push -10
+push 8
+push 11
+push -12
+top
+min
+pop
+min
+empty
+pop
+pop
+min
+pop
+top
+min
+empty
+9 DOUBLE STACK
+push 9.7
+push 7.3
+push 10.11
+push -3.3
+top
+min
+pop
+pop
+min
+9 STRING QUEUE
+enqueue ola
+front
+min
+enqueue ala
+enqueue kogut
+min
+clear
+enqueue kot
+min

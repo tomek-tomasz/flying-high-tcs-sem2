@@ -1,0 +1,2 @@
+CREATE USER test WITH PASSWORD 'random';
+CREATE DATABASE test OWNER test;

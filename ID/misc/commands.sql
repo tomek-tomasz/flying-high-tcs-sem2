@@ -1,0 +1,2 @@
+CREATE USER "tomek" WITH PASSWORD '8ebba337d12231b7';
+CREATE DATABASE "tomek" OWNER "tomek";

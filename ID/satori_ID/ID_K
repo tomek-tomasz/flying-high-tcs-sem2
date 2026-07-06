@@ -1,0 +1,46 @@
+
+
+CREATE OR REPLACE FUNCTION array_intersect(t1 anyarray, t2 anyarray)
+    RETURNS anyarray AS
+$$
+
+BEGIN
+    EXCEPTION WHEN OTHERS
+    THEN
+    RETURN NULL;
+
+END;
+$$
+LANGUAGE plpgsql;
+
+-- TAB B CHAR(3) CHECK(B IN ('TAK', 'NIE')
+--DROP CONSTRAINT COSTAM
+--ALTER TABLE TAB ALTER COLUMN B TYPE BOOLEAN
+--USING CASE B WHEN B TAK 
+
+
+
+--SELECT CTID, * FROM TAB;
+--CTID::TEXT::POINT)[1]::INTEGER % 3 = 1
+
+
+
+
+
+SELECT ODPOWIEDNI NA pg_catalog.pg_tables
+
+declare
+    row record;
+begin
+    for row in (SELECT ODPOWIEDNI NA pg_catalog.pg_tables) loop
+        EXECUTE 'DROP TABLE' || quote_ident(row.tablename) || 'CASCADE';
+    END LOOP;   
+end;
+
+
+
+DELETE FROM TAB A 
+USING TAB B
+WHERE A.* = B.* AND A.CTID != B.CTID
+
+
